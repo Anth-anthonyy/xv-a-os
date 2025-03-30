@@ -1,0 +1,60 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-image: url('Mariposas.png');  
+    background-size: auto 200vh; /* Usa 100vh o una altura específica como 600px */  
+    background-position: center; /* Centra la imagen */  
+    background-repeat: no-repeat; /* No repetir la imagen */  
+    color: #333;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+header {  
+    text-align: center;  
+    padding: 20px;  
+    background-color: rgba(213, 166, 224, 0.8); /* Fondo semitransparente */  
+    color: #fff;  
+}  
+
+h1 {  
+    font-size: 2.5em;  
+}  
+
+form {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin: 20px;  
+}  
+
+input[type="file"] {  
+    margin: 10px 0;  
+}  
+
+button {  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    color: white;  
+    background-color: #ab47bc;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+button:hover {  
+    background-color: #8e24aa;  
+}  
+
+#gallery {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    margin-top: 20px;  
+}  
+
+img, video {  
+    max-width: 100%;  
+    margin: 10px;  
+    border: 2px solid #d5a6e0;  
+    border-radius: 10px;  
+}  
